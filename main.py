@@ -1,6 +1,8 @@
 from classAndStaticMethods import Person
 from decorators import Decorators
 from errorHandling import ErrorHandling
+from generators import Generators
+from files import Files
 
 def aboutClassAndStaticMethods():
   person1 = Person('Neel', 16) 
@@ -23,6 +25,23 @@ def aboutErrorHandling():
   #eh.doErrorHandling()
   eh.doRaiseError()
 
+def aboutGenerators():
+  gen = Generators()
+  #gen.doGenerateNumbers(15)
+  #gen.doSpecialForLoop([2,4,7])
+  #gen.doCreateRange(0,7)
+  #gen.doGenerateFib(10)
+  gen.doEfficientFib(20)
+
+def aboutFiles():
+  aFile = Files()
+  #aFile.doReadFile()
+  aFile.doWithOpenFileHandling()
+  #aFile.doTryExceptInFileHandling()
+  #aFile.doWriteFile()
+
 #aboutClassAndStaticMethods()
 #aboutDecorators()
-aboutErrorHandling()
+#aboutErrorHandling()
+#aboutGenerators()
+aboutFiles()
