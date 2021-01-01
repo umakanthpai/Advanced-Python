@@ -3,6 +3,7 @@ from decorators import Decorators
 from errorHandling import ErrorHandling
 from generators import Generators
 from files import Files
+from regular_expressions import RegularExpressions
 
 def aboutClassAndStaticMethods():
   person1 = Person('Neel', 16) 
@@ -40,8 +41,14 @@ def aboutFiles():
   #aFile.doTryExceptInFileHandling()
   #aFile.doWriteFile()
 
+def aboutRegularExoression():
+  pass
+  regex = RegularExpressions()
+  regex.doRegex()
+
 #aboutClassAndStaticMethods()
 #aboutDecorators()
 #aboutErrorHandling()
 #aboutGenerators()
-aboutFiles()
+#aboutFiles()
+aboutRegularExoression()
