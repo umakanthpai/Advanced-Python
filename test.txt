@@ -1,4 +1,0 @@
-Python is an OOP language
-Python used in Data Science
-Python used in web development
-python can also be used as a scripting language
